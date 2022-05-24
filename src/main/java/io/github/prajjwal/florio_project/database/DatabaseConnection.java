@@ -6,7 +6,13 @@ Time: 7:39 PM
 File: Connectiom.java */
 package io.github.prajjwal.florio_project.database;
 
-public class Connection {
+import javafx.scene.control.Alert;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+
+public class DatabaseConnection {
 
     private final String URL = "jdbc:mysql://localhost:3306/florio";
     private final String USERNAME = "root";

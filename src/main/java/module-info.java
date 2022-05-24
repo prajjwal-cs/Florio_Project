@@ -1,6 +1,7 @@
 module io.github.prajjwal.florio_project {
     requires javafx.controls;
     requires javafx.fxml;
+    requires java.sql;
 
 
     opens io.github.prajjwal.florio_project to javafx.fxml;

@@ -1176,7 +1176,8 @@ test\\_%|schema||&apos;&apos;||UPDATE|G</Grants>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
     <column id="335" parent="334" name="UserID">
-      <DataType>varchar(40)|0s</DataType>
+      <AutoIncrement>1</AutoIncrement>
+      <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
