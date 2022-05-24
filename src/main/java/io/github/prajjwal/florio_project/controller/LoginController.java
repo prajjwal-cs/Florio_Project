@@ -18,4 +18,8 @@ public class LoginController {
 
     @FXML
     private Button registerButton;
+
+    @FXML
+    public void onLoginButtonClick() {
+    }
 }
