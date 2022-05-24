@@ -53,7 +53,7 @@ public class RegisterController {
         Random random = new Random();
 
         // Insert data into User Object
-        User user = new User(random.nextInt(99999), name, phone, email, password);
+        User user = new User(name, phone, email, password);
         // Insert data into database
         RegisterHelper registerHelper = new RegisterHelper();
         registerHelper.createUser(connection.getConnection(), user);

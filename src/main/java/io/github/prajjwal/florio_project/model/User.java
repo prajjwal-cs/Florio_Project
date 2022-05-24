@@ -7,14 +7,13 @@ File: User.java */
 package io.github.prajjwal.florio_project.model;
 
 public class User {
-    private final int userID;
+    private int userID;
     private String name;
     private long phone;
     private String email;
     private String password;
 
-    public User(int userID, String name, long phone, String email, String password) {
-        this.userID = userID;
+    public User(String name, long phone, String email, String password) {
         this.name = name;
         this.phone = phone;
         this.email = email;

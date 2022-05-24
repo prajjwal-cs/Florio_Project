@@ -62,7 +62,7 @@
                         <Insets bottom="5.0" />
                      </VBox.margin>
                   </TextField>
-                  <TextField fx:id="nameTextField1" layoutX="10.0" layoutY="40.0" text="+91">
+                  <TextField fx:id="phoneTextField" layoutX="10.0" layoutY="40.0">
                      <VBox.margin>
                         <Insets bottom="5.0" />
                      </VBox.margin>
@@ -72,7 +72,7 @@
             </VBox>
          </children>
       </HBox>
-      <Button fx:id="registerButton" mnemonicParsing="false" text="Register" textAlignment="CENTER">
+      <Button fx:id="registerButton" mnemonicParsing="false" onAction="#onRegisterButtonClick" text="Register" textAlignment="CENTER">
          <font>
             <Font size="14.0" />
          </font>

@@ -11,6 +11,9 @@
         <ImageView fx:id="florioTitleImage" fitHeight="96.0" fitWidth="189.0" pickOnBounds="true" preserveRatio="true">
             <image>
             </image>
+         <VBox.margin>
+            <Insets top="10.0" />
+         </VBox.margin>
         </ImageView>
         <Label fx:id="loginText" text="Login Page">
             <font>
@@ -61,7 +64,7 @@
         </Button>
         <Button fx:id="loginRegisterButton" mnemonicParsing="false" onAction="#onLoginRegisterButtonClick" prefHeight="32.0" prefWidth="72.0" text="Register">
             <VBox.margin>
-                <Insets bottom="10.0" top="15.0" />
+                <Insets bottom="15.0" top="1.0" />
             </VBox.margin>
         </Button>
     </children>
