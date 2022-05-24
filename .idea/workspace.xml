@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1414a21-2b17-4319-b6d0-ccd6a09701e4" name="Changes" comment="Implemented Register Controller">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/90df5a7b-7a11-404a-85f1-b611589aee90.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/90df5a7b-7a11-404a-85f1-b611589aee90.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/prajjwal/florio_project/controller/RegisterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/prajjwal/florio_project/controller/RegisterController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/prajjwal/florio_project/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/prajjwal/florio_project/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/prajjwal/florio_project/database/helper/LoginHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/prajjwal/florio_project/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/prajjwal/florio_project/controller/LoginController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/io/github/prajjwal/florio_project/login-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/io/github/prajjwal/florio_project/login-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/io/github/prajjwal/florio_project/register-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/io/github/prajjwal/florio_project/register-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +103,7 @@
       <workItem from="1653398310340" duration="2180000" />
       <workItem from="1653400532291" duration="2118000" />
       <workItem from="1653402663319" duration="71000" />
-      <workItem from="1653402763235" duration="707000" />
+      <workItem from="1653402763235" duration="1073000" />
     </task>
     <task id="LOCAL-00001" summary="Some changes">
       <created>1653228018120</created>
@@ -157,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653402397053</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Implemented Register Controller">
+      <created>1653403479475</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1653403479475</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
