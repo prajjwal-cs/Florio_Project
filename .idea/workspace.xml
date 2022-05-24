@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1414a21-2b17-4319-b6d0-ccd6a09701e4" name="Changes" comment="Create a new files for dashboard">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/prajjwal/florio_project/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/prajjwal/florio_project/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/prajjwal/florio_project/controller/RegisterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/prajjwal/florio_project/controller/RegisterController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/io/github/prajjwal/florio_project/register-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/io/github/prajjwal/florio_project/register-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,21 +39,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;last_directory_selection&quot;: &quot;C:/Users/Stroke/IdeaProjects/Florio_Project/src/main/java/io/github/prajjwal/florio_project&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "dart.analysis.tool.window.visible": "false",
+    "last_directory_selection": "C:/Users/Stroke/IdeaProjects/Florio_Project/src/main/java/io/github/prajjwal/florio_project",
+    "last_opened_file_path": "C:/Users/prajj/IdeaProjects/NewLoginDemo",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "show.migrate.to.gradle.popup": "false"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "derby",
+      "mysql"
+    ]
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="io.github.prajjwal.florio_project.HelloApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.github.prajjwal.florio_project.HelloApplication" />
@@ -81,6 +95,10 @@
       <workItem from="1653227708439" duration="850000" />
       <workItem from="1653234807913" duration="180000" />
       <workItem from="1653285088560" duration="1393000" />
+      <workItem from="1653387281637" duration="715000" />
+      <workItem from="1653390888201" duration="316000" />
+      <workItem from="1653396799013" duration="1074000" />
+      <workItem from="1653398310340" duration="115000" />
     </task>
     <task id="LOCAL-00001" summary="Some changes">
       <created>1653228018120</created>
