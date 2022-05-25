@@ -45,6 +45,22 @@ public class LoginController {
         else {
             showAlert(Alert.AlertType.ERROR, "Error", "Invalid Username or Password");
         }
+
+        openDashboard();
+        closeCurrentStage();
+    }
+
+    private void openDashboard() {
+        try {
+            Stage stage = new Stage();
+            FXMLLoader loader = new FXMLLoader(HelloApplication.class.getResource("dashboard-view.fxml"));
+            Scene scene = new Scene(loader.load());
+            stage.setScene(scene);
+            stage.show();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
     }
 
     @FXML

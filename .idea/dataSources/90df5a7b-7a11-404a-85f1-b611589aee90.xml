@@ -1171,37 +1171,70 @@ test\\_%|schema||&apos;&apos;||UPDATE|G</Grants>
     <user id="333" parent="1" name="root">
       <Host>localhost</Host>
     </user>
-    <table id="334" parent="324" name="user">
+    <table id="334" parent="324" name="order_details">
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <column id="335" parent="334" name="UserID">
-      <AutoIncrement>10498</AutoIncrement>
+    <table id="335" parent="324" name="user">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </table>
+    <column id="336" parent="334" name="OrderID">
+      <DataType>int(6)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="337" parent="334" name="Name">
+      <DataType>varchar(40)|0s</DataType>
+      <Position>2</Position>
+    </column>
+    <column id="338" parent="334" name="Time">
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="339" parent="334" name="HasDone">
+      <DataType>tinyint(1)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+    </column>
+    <column id="340" parent="334" name="Address">
+      <DataType>varchar(60)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>5</Position>
+    </column>
+    <key id="341" parent="334" name="PRIMARY">
+      <ColNames>OrderID</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+    </key>
+    <column id="342" parent="335" name="UserID">
+      <AutoIncrement>10499</AutoIncrement>
       <DataType>int(15)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="336" parent="334" name="Name">
+    <column id="343" parent="335" name="Name">
       <DataType>varchar(40)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="337" parent="334" name="Phone">
+    <column id="344" parent="335" name="Phone">
       <DataType>bigint(10)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>3</Position>
     </column>
-    <column id="338" parent="334" name="Email">
+    <column id="345" parent="335" name="Email">
       <DataType>varchar(40)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>4</Position>
     </column>
-    <column id="339" parent="334" name="Password">
+    <column id="346" parent="335" name="Password">
       <DataType>varchar(25)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>5</Position>
     </column>
-    <key id="340" parent="334" name="PRIMARY">
+    <key id="347" parent="335" name="PRIMARY">
       <ColNames>UserID</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
