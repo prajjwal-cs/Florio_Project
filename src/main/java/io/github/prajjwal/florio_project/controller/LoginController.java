@@ -41,13 +41,14 @@ public class LoginController {
         boolean isValid = loginHelper.loginUser(emailTextField.getText(), passwordField.getText());
         if (isValid) {
             showAlert(Alert.AlertType.INFORMATION, "Success", "Login Successful");
+            openDashboard();
+            closeCurrentStage();
         }
         else {
             showAlert(Alert.AlertType.ERROR, "Error", "Invalid Username or Password");
         }
 
-        openDashboard();
-        closeCurrentStage();
+
     }
 
     private void openDashboard() {
@@ -55,6 +56,7 @@ public class LoginController {
             Stage stage = new Stage();
             FXMLLoader loader = new FXMLLoader(HelloApplication.class.getResource("dashboard-view.fxml"));
             Scene scene = new Scene(loader.load());
+            stage.setTitle("Florio");
             stage.setScene(scene);
             stage.show();
         } catch (IOException e) {

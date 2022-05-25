@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1414a21-2b17-4319-b6d0-ccd6a09701e4" name="Changes" comment="Implemented login controller and login helper">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/90df5a7b-7a11-404a-85f1-b611589aee90.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/90df5a7b-7a11-404a-85f1-b611589aee90.xml" afterDir="false" />
+    <list default="true" id="f1414a21-2b17-4319-b6d0-ccd6a09701e4" name="Changes" comment="Change in login controller and UI">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/github/prajjwal/florio_project/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/prajjwal/florio_project/controller/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/WhatsApp Image 2022-05-13 at 12.25.52 AM.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/img/florioTitle.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/io/github/prajjwal/florio_project/login-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/io/github/prajjwal/florio_project/login-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/io/github/prajjwal/florio_project/dashboard-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/io/github/prajjwal/florio_project/dashboard-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,13 +49,13 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
     &quot;last_directory_selection&quot;: &quot;C:/Users/Stroke/IdeaProjects/Florio_Project/src/main/java/io/github/prajjwal/florio_project&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/prajj/IdeaProjects/CP_Demo&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/prajj/Downloads/charm-glisten-6.1.0-javadoc.jar&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;fileTemplates&quot;,
     &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
@@ -108,7 +107,8 @@
       <workItem from="1653402763235" duration="1172000" />
       <workItem from="1653403944520" duration="215000" />
       <workItem from="1653463090163" duration="21000" />
-      <workItem from="1653486422536" duration="1537000" />
+      <workItem from="1653486422536" duration="4309000" />
+      <workItem from="1653495693466" duration="717000" />
     </task>
     <task id="LOCAL-00001" summary="Some changes">
       <created>1653228018120</created>
@@ -173,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653403919282</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Change in login controller and UI">
+      <created>1653488166056</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1653488166056</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,6 +206,7 @@
     <MESSAGE value="implement login UI and controller" />
     <MESSAGE value="Implemented Register Controller" />
     <MESSAGE value="Implemented login controller and login helper" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented login controller and login helper" />
+    <MESSAGE value="Change in login controller and UI" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change in login controller and UI" />
   </component>
 </project>
