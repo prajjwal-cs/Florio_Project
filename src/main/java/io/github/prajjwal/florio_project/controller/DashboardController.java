@@ -6,6 +6,7 @@ Time: 11:25 AM
 File: DashboarView.java */
 package io.github.prajjwal.florio_project.controller;
 
+import io.github.prajjwal.florio_project.database.DatabaseConnection;
 import io.github.prajjwal.florio_project.database.helper.AddAddressHelper;
 import javafx.fxml.FXML;
 import javafx.scene.control.Alert;
@@ -56,10 +57,16 @@ public class DashboardController {
 
     @FXML
     public void onAddAddressButtonClick() {
+        DatabaseConnection connection = new DatabaseConnection();
+        try {
+            connection.createConnection();
+        } catch (SQLException e) {
+            //Looger
+        }
         String address = addressTextField.getText();
         AddAddressHelper addAddressHelper = new AddAddressHelper();
         try {
-            addAddressHelper.addAddress(address);
+            addAddressHelper.addAddress(connection.getConnection(), address);
             showAlert(Alert.AlertType.INFORMATION, "Successful", "Address added Successfully!");
         } catch (SQLException e) {
             //Logger
