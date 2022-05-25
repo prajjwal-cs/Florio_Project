@@ -6,6 +6,8 @@ Time: 19:06
 File: User.java */
 package io.github.prajjwal.florio_project.model;
 
+import java.util.Objects;
+
 public class User {
     private int userID;
     private String name;
@@ -13,11 +15,17 @@ public class User {
     private String email;
     private String password;
 
+    private String address;
+
     public User(String name, long phone, String email, String password) {
         this.name = name;
         this.phone = phone;
         this.email = email;
         this.password = password;
+    }
+
+    public User(String address) {
+        this.address = address;
     }
 
     public int getUserID() {
@@ -54,5 +62,38 @@ public class User {
 
     public void setPassword(String password) {
         this.password = password;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        User user = (User) o;
+        return userID == user.userID && phone == user.phone && Objects.equals(name, user.name) && Objects.equals(email, user.email) && Objects.equals(password, user.password) && Objects.equals(address, user.address);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(userID, name, phone, email, password, address);
+    }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "userID=" + userID +
+                ", name='" + name + '\'' +
+                ", phone=" + phone +
+                ", email='" + email + '\'' +
+                ", password='" + password + '\'' +
+                ", address='" + address + '\'' +
+                '}';
     }
 }

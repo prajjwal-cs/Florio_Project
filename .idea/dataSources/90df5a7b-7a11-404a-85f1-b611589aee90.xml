@@ -1234,7 +1234,11 @@ test\\_%|schema||&apos;&apos;||UPDATE|G</Grants>
       <NotNull>1</NotNull>
       <Position>5</Position>
     </column>
-    <key id="347" parent="335" name="PRIMARY">
+    <column id="347" parent="335" name="Address">
+      <DataType>varchar(60)|0s</DataType>
+      <Position>6</Position>
+    </column>
+    <key id="348" parent="335" name="PRIMARY">
       <ColNames>UserID</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
