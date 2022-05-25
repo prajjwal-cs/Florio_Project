@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1414a21-2b17-4319-b6d0-ccd6a09701e4" name="Changes" comment="Adding address info and implementing add address button click">
+    <list default="true" id="f1414a21-2b17-4319-b6d0-ccd6a09701e4" name="Changes" comment="Create a new add address helper">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/github/prajjwal/florio_project/controller/DashboardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/prajjwal/florio_project/controller/DashboardController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/prajjwal/florio_project/controller/RegisterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/prajjwal/florio_project/controller/RegisterController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/github/prajjwal/florio_project/database/helper/AddAddressHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/prajjwal/florio_project/database/helper/AddAddressHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/io/github/prajjwal/florio_project/dashboard-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/io/github/prajjwal/florio_project/dashboard-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="FxmlFile" />
         <option value="Class" />
+        <option value="FxmlFile" />
       </list>
     </option>
   </component>
@@ -108,7 +110,7 @@
       <workItem from="1653403944520" duration="215000" />
       <workItem from="1653463090163" duration="21000" />
       <workItem from="1653486422536" duration="4309000" />
-      <workItem from="1653495693466" duration="3545000" />
+      <workItem from="1653495693466" duration="4630000" />
     </task>
     <task id="LOCAL-00001" summary="Some changes">
       <created>1653228018120</created>
@@ -194,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653498644805</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Create a new add address helper">
+      <created>1653499320172</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1653499320172</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,6 +232,7 @@
     <MESSAGE value="Change in login controller and UI" />
     <MESSAGE value="Change in login controller and Implemented Dashboard UI" />
     <MESSAGE value="Adding address info and implementing add address button click" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding address info and implementing add address button click" />
+    <MESSAGE value="Create a new add address helper" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create a new add address helper" />
   </component>
 </project>

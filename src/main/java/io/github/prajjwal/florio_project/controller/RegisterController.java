@@ -13,6 +13,7 @@ import io.github.prajjwal.florio_project.model.User;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
+import javafx.scene.control.Alert;
 import javafx.scene.control.Button;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
@@ -50,13 +51,15 @@ public class RegisterController {
         String email = emailTextField.getText();
         String password = registerPasswordField.getText();
 
-        Random random = new Random();
-
         // Insert data into User Object
         User user = new User(name, phone, email, password);
         // Insert data into database
         RegisterHelper registerHelper = new RegisterHelper();
         registerHelper.createUser(connection.getConnection(), user);
+        Alert alert = new Alert(Alert.AlertType.INFORMATION);
+        alert.setTitle("Successful");
+        alert.setContentText("Successfully Registered");
+        alert.show();
     }
 
     @FXML

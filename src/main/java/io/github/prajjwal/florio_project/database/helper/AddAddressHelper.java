@@ -13,12 +13,12 @@ import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
 public class AddAddressHelper {
-    public void addAddress(User user) throws SQLException {
+    public void addAddress(String address) throws SQLException {
         DatabaseConnection connection = new DatabaseConnection();
         String insertQuery =
                 "INSERT INTO user (Address) values ?)";
         PreparedStatement statement = connection.getConnection().prepareStatement(insertQuery);
-        statement.setString(1, user.getAddress());
+        statement.setString(1, address);
         statement.executeUpdate();
     }
 }
