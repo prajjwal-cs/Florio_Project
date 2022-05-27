@@ -10,11 +10,14 @@ import javafx.scene.control.Button;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
 import javafx.stage.Stage;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.io.IOException;
 import java.sql.SQLException;
 
 public class LoginController {
+    Logger logger = LoggerFactory.getLogger(this.getClass());
     @FXML
     private TextField emailTextField;
 
@@ -28,21 +31,26 @@ public class LoginController {
     private Button registerButton;
 
     @FXML
-    public void onLoginButtonClick() throws SQLException {
+    public void onLoginButtonClick() {
         if(emailTextField.getText().isEmpty()) {
             showAlert(Alert.AlertType.ERROR, "Error", "Username cannot be empty");
         }
         if (passwordField.getText().isEmpty()) {
             showAlert(Alert.AlertType.ERROR, "Error", "Password cannot be empty");
         }
-        //isValidPassword();
+        isValidPassword();
 
         LoginHelper loginHelper = new LoginHelper();
-        boolean isValid = loginHelper.loginUser(emailTextField.getText(), passwordField.getText());
+        boolean isValid = false;
+        try {
+            isValid = loginHelper.loginUser(emailTextField.getText(), passwordField.getText());
+        } catch (SQLException e) {
+            logger.error("Not a Valid password");
+        }
         if (isValid) {
-            showAlert(Alert.AlertType.INFORMATION, "Success", "Login Successful");
             openDashboard();
             closeCurrentStage();
+            showAlert(Alert.AlertType.INFORMATION, "Success", "Login Successful");
         }
         else {
             showAlert(Alert.AlertType.ERROR, "Error", "Invalid Username or Password");
