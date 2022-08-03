@@ -20,7 +20,8 @@ public class DatabaseConnection {
 
     private Connection connection = null;
 
-    public Connection getConnection() {
+    public Connection getConnection()
+ {
         return connection;
     }
 
@@ -28,7 +29,6 @@ public class DatabaseConnection {
         connection = DriverManager.getConnection(URL, USERNAME, PASSWORD);
         return connection != null;
     }
-
     public void printConnectionStatus() {
         if (getConnection() != null) {
             printSuccess();

@@ -10,14 +10,14 @@ import javafx.scene.control.Button;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
 import javafx.stage.Stage;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+/*import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;*/
 
 import java.io.IOException;
 import java.sql.SQLException;
 
 public class LoginController {
-    Logger logger = LoggerFactory.getLogger(this.getClass());
+    //Logger logger = LoggerFactory.getLogger(this.getClass());
     @FXML
     private TextField emailTextField;
 
@@ -38,14 +38,14 @@ public class LoginController {
         if (passwordField.getText().isEmpty()) {
             showAlert(Alert.AlertType.ERROR, "Error", "Password cannot be empty");
         }
-        isValidPassword();
+        //isValidPassword();
 
         LoginHelper loginHelper = new LoginHelper();
         boolean isValid = false;
         try {
             isValid = loginHelper.loginUser(emailTextField.getText(), passwordField.getText());
         } catch (SQLException e) {
-            logger.error("Not a Valid password");
+            //logger.error("Not a Valid password");
         }
         if (isValid) {
             openDashboard();

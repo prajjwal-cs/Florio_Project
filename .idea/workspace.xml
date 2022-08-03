@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1414a21-2b17-4319-b6d0-ccd6a09701e4" name="Changes" comment="Implemented add address button function">
+    <list default="true" id="f1414a21-2b17-4319-b6d0-ccd6a09701e4" name="Changes" comment="add logging with slf4j">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/90df5a7b-7a11-404a-85f1-b611589aee90.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/90df5a7b-7a11-404a-85f1-b611589aee90.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/prajjwal/florio_project/controller/DashboardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/prajjwal/florio_project/controller/DashboardController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/github/prajjwal/florio_project/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/prajjwal/florio_project/controller/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/prajjwal/florio_project/database/helper/AddAddressHelper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/io/github/prajjwal/florio_project/dashboard-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/io/github/prajjwal/florio_project/dashboard-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/prajjwal/florio_project/database/DatabaseConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/prajjwal/florio_project/database/DatabaseConnection.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +50,7 @@
     "WebServerToolWindowFactoryState": "false",
     "dart.analysis.tool.window.visible": "false",
     "last_directory_selection": "C:/Users/Stroke/IdeaProjects/Florio_Project/src/main/java/io/github/prajjwal/florio_project",
-    "last_opened_file_path": "C:/Users/prajj/IdeaProjects/CP_Demo",
+    "last_opened_file_path": "C:/Users/prajj/IdeaProjects/Florio_Project",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -113,6 +113,11 @@
       <workItem from="1653500416938" duration="2279000" />
       <workItem from="1653549411999" duration="51000" />
       <workItem from="1653552143946" duration="353000" />
+      <workItem from="1653637310382" duration="317000" />
+      <workItem from="1653642471980" duration="1466000" />
+      <workItem from="1655734379091" duration="74000" />
+      <workItem from="1659363150354" duration="451000" />
+      <workItem from="1659365196381" duration="512000" />
     </task>
     <task id="LOCAL-00001" summary="Some changes">
       <created>1653228018120</created>
@@ -219,7 +224,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653500834409</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="add logging with slf4j">
+      <created>1653637614749</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1653637614749</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -250,6 +262,7 @@
     <MESSAGE value="Adding address info and implementing add address button click" />
     <MESSAGE value="Create a new add address helper" />
     <MESSAGE value="Implemented add address button function" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented add address button function" />
+    <MESSAGE value="add logging with slf4j" />
+    <option name="LAST_COMMIT_MESSAGE" value="add logging with slf4j" />
   </component>
 </project>
